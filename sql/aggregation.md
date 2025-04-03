@@ -17,16 +17,16 @@
 
 ### Advanced Aggregation
 
-ROLLUP – Hierarchical aggregation (useful for reporting)
-CUBE – Multi-dimensional aggregation (cross-tab reports)
-GROUPING SETS – Custom grouping combinations
-Window Functions (Analytical Aggregations):
-ROW_NUMBER() – Assigns a unique number to each row
-RANK() / DENSE_RANK() – Ranking within partitions
-NTILE() – Dividing data into equal-sized groups
-SUM() OVER() / AVG() OVER() – Aggregation without collapsing rows
-Common Table Expressions (CTE) with Aggregation
-Recursive Aggregation using CTEs
-JSON Aggregation Functions (For handling JSON data)
-String Aggregation using STRING_AGG() (PostgreSQL, SQL Server)
-Pivoting Data using PIVOT (SQL Server)
+- ROLLUP – Hierarchical aggregation (useful for reporting)
+- CUBE – Multi-dimensional aggregation (cross-tab reports)
+- GROUPING SETS – Custom grouping combinations
+- Window Functions (Analytical Aggregations):
+- ROW_NUMBER() – Assigns a unique number to each row
+- RANK() / DENSE_RANK() – Ranking within partitions
+- NTILE() – Dividing data into equal-sized groups
+- SUM() OVER() / AVG() OVER() – Aggregation without collapsing rows
+- Common Table Expressions (CTE) with Aggregation
+- Recursive Aggregation using CTEs
+- JSON Aggregation Functions (For handling JSON data)
+- String Aggregation using STRING_AGG() (PostgreSQL, SQL Server)
+- Pivoting Data using PIVOT (SQL Server)
