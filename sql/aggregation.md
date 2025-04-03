@@ -2,18 +2,18 @@
 
 ### Basic Aggregation Concepts
 
-COUNT() – Counting rows in a table
-SUM() – Adding up values in a column
-AVG() – Calculating the average of a column
-MIN() / MAX() – Finding the smallest or largest value
+- COUNT() – Counting rows in a table
+- SUM() – Adding up values in a column
+- AVG() – Calculating the average of a column
+- MIN() / MAX() – Finding the smallest or largest value
 
 ### Intermediate Aggregation
 
-GROUP BY – Grouping data for aggregation
-HAVING Clause – Filtering aggregated results
-DISTINCT with Aggregation – Counting unique values
-ORDER BY with Aggregation – Sorting aggregated data
-Nested Aggregations – Using aggregations within aggregations
+- GROUP BY – Grouping data for aggregation
+- HAVING Clause – Filtering aggregated results
+- DISTINCT with Aggregation – Counting unique values
+- ORDER BY with Aggregation – Sorting aggregated data
+- Nested Aggregations – Using aggregations within aggregations
 
 ### Advanced Aggregation
 
