@@ -32,16 +32,15 @@
 - String Aggregation using STRING_AGG() (PostgreSQL, SQL Server)
 - Pivoting Data using PIVOT (SQL Server)
 
-
-1. SELECT category, SUM(price) AS total_sales
-   FROM sales
-   GROUP BY category
-   HAVING total_sales > 5000;  -- ❌ Incorrect
-
-2. SELECT category, SUM(price) AS total_sales
-   FROM sales
-   GROUP BY category
-   HAVING SUM(price) > 5000;
+### Example
+1. SELECT category, SUM(price) AS total_sales<br/>
+   FROM sales<br/>
+   GROUP BY category<br/>
+   HAVING total_sales > 5000;  -- ❌ Incorrect<br/>
+2. SELECT category, SUM(price) AS total_sales<br/>
+   FROM sales<br/>
+   GROUP BY category<br/>
+   HAVING SUM(price) > 5000;<br/>
 
 
 ### Why?
