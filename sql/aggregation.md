@@ -1,5 +1,6 @@
-## Aggregation in SQL
+### ### Aggregation functions in SQL are used to perform calculations on multiple rows of data and return a single result
 
+## Aggregation in SQL
 ### Basic Aggregation Concepts
 
 - COUNT() – Counting rows in a table
@@ -30,3 +31,19 @@
 - JSON Aggregation Functions (For handling JSON data)
 - String Aggregation using STRING_AGG() (PostgreSQL, SQL Server)
 - Pivoting Data using PIVOT (SQL Server)
+
+
+1. SELECT category, SUM(price) AS total_sales
+   FROM sales
+   GROUP BY category
+   HAVING total_sales > 5000;  -- ❌ Incorrect
+
+2. SELECT category, SUM(price) AS total_sales
+   FROM sales
+   GROUP BY category
+   HAVING SUM(price) > 5000;
+
+
+### Why?
+- SQL processes HAVING before SELECT, so total_sales alias does not yet exist when HAVING runs.
+- You must use SUM(price) > 5000 instead of total_sales > 5000.

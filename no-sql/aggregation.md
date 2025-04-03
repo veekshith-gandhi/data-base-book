@@ -1,3 +1,5 @@
+### Aggregation functions in SQL are used to perform calculations on multiple rows of data and return a single result
+
 ## Aggregation in NoSQL (MongoDB)
 ### Basic Aggregation Concepts
 
